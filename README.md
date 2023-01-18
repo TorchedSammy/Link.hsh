@@ -12,9 +12,10 @@ things to Hilbish that relate to links. This includes:
 > Work in progress.
 
 # Setup
-Clone to somewhere Hilbish looks for libraries:
+Clone to the Hilbish autostart directory, which you can find
+by `print(hilbish.userDir.data .. '/hilbish/start/')`:
 ```
-git clone --depth 1 https://github.com/TorchedSammy/Link.hsh ~/.local/share/hilbish/libs/link
+git clone --depth 1 https://github.com/TorchedSammy/Link.hsh ~/.local/share/hilbish/start/link
 ```
 
 And then set `linkAction` as your runner in your config with:
